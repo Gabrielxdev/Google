@@ -1,0 +1,300 @@
+.cabecalho {
+   display: flex;
+   align-items: center;
+   padding: 6px;
+   justify-content: flex-end;
+}
+
+.cabecalho-um a {
+   margin: 10px;
+   text-decoration: none;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho-um:hover {
+   text-decoration: underline;
+}
+
+.cabecalho-dois {
+   margin: 10px;
+}
+
+.cabecalho-dois a {
+   text-decoration: none;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho-dois a:hover {
+   text-decoration: underline;
+}
+
+.cabecalho-tres img {
+   height: 25px;
+   margin: 10px;
+}
+
+.cabecalho-tres button {
+   margin: 10px;
+   border: none;
+   background-color: white;
+}
+
+.cabecalho-tres button:hover {
+   border-radius: 100%;
+   background-color: darkgray;
+}
+
+.cabecalho-quatro a {
+   color: white;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+}
+
+.cabecalho-quatro button {
+   background-color: rgb(0, 102, 255);
+   width: 100px;
+   height: 40px;
+   border: none;
+   padding: 10px;
+   box-sizing: border-box;
+   border-radius: 4px;
+}
+
+.cabecalho-quatro button:hover {
+   background-color: lightblue;
+}
+
+.principal {
+   display: grid;
+   justify-content: center;
+   margin: 5px;
+   padding: 5px;
+   border: 5px;
+}
+
+.img {
+   display: flex;
+   justify-content: center;
+}
+
+.caixa {
+   margin-top: 20px;
+   position: relative;
+}
+
+.caixa input {
+   width: 600px;
+   height: 40px;
+   margin: 0 auto;
+   border: none;
+   border: solid 1px gray;
+   border-radius: 50px;
+   font-size: 16px;
+   font-style: inherit;
+   text-indent: 40px;
+}
+
+.caixa input:hover {
+   box-shadow: 10px 10px 10px gray;
+}
+
+.caixa input:focus,
+textarea:focus {
+   box-shadow: 10px 10px 10px gray;
+   outline: 0;
+}
+
+.input-icon {
+   color: gray;
+
+   width: 20px;
+   height: 20px;
+   left: 12px;
+   top: 50%;
+   transform: translateY(-50%);
+   position: absolute;
+}
+
+.voice {
+   width: 25px;
+   height: 25px;
+   left: 10px;
+   bottom: 10px;
+   position: absolute;
+   transform: translateX(560px);
+}
+
+.botoes {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   border: none;
+}
+
+.botaoSearch {
+   margin: 0 10px;
+   padding: 10px;
+   border: 1px solid #f8f9fa;
+   background-color: #f8f9fa;
+   border-radius: 4px;
+   font-family: arial, sans-serif;
+   font-size: 14px;
+}
+
+.botaoSorte {
+   padding: 10px;
+   border: 1px solid #f8f9fa;
+   background-color: #f8f9fa;
+   border-radius: 4px;
+   font-family: arial, sans-serif;
+   font-size: 14px;
+}
+
+.botaoSearch:hover {
+   border: 1px solid lightgray;
+}
+
+.botaoSorte:hover {
+   border: 1px solid lightgray;
+}
+
+.idioma {
+   font-family: arial, sans-serif;
+   font-size: 14px;
+   justify-content: center;
+   display: flex;
+   margin-top: 15px;
+   font-size: 12px;
+   color: gray;
+}
+
+span {
+   margin-right: 5px;
+}
+
+#offered {
+   text-decoration: none;
+}
+
+#offered:hover {
+   text-decoration: underline;
+}
+
+.brazil {
+   background-color: rgb(240, 239, 239);
+   color: #70757a;
+   font-family: arial, sans-serif;
+   border-bottom: 1px solid #dadce0;
+   font-size: 15px;
+   padding: 15px 30px;
+   transform: translateY(130px);
+   width: 100%;
+}
+
+.footer {
+   display: flex;
+   width: 50%;
+   color: lightgray;
+   justify-content: flex-start;
+   padding: 10px;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   transform: translateY(150px);
+   margin-left: 20px;
+}
+
+.sobre {
+   margin-right: 25px;
+   text-decoration: none;
+}
+.sobre a {
+   text-decoration: none;
+   color: darkslategray;
+}
+
+.sobre a:hover {
+   text-decoration: underline;
+}
+
+.publicidade {
+   margin-right: 25px;
+}
+
+.publicidade a {
+   text-decoration: none;
+   color: darkslategray;
+}
+
+.publicidade a:hover {
+   text-decoration: underline;
+}
+
+.negocios {
+   margin-right: 25px;
+}
+
+.negocios a {
+   text-decoration: none;
+   color: darkslategray;
+}
+
+.negocios a:hover {
+   text-decoration: underline;
+}
+
+.how {
+   margin-right: 10px;
+}
+
+.how a {
+   text-decoration: none;
+   color: darkslategray;
+}
+
+.how a:hover {
+   text-decoration: underline;
+}
+
+.footerDois {
+   display: flex;
+   width: auto;
+   right: 0;
+   bottom: 35px;
+   position: absolute;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: darkslategray;
+}
+
+.config {
+   margin-left: 15px;
+}
+
+.config:hover {
+   text-decoration: underline;
+}
+
+.termos {
+   margin-left: 20px;
+}
+
+.termos a {
+   text-decoration: none;
+   color: darkslategray;
+}
+
+.termos a:hover {
+   text-decoration: underline;
+}
+
+.private a {
+   text-decoration: none;
+   color: darkslategray;
+}
+
+.private a:hover {
+   text-decoration: underline;
+}
